@@ -126,3 +126,69 @@ a{
     height: 400px;
     background-color: green;
 }
+
+.footer-top{ padding: 20px;
+    /* DEBUG */
+    background-color: darkslategray;
+    border-bottom: 2px solid white;
+}
+
+
+
+
+.footer-pink{
+    width: 30%;
+
+    /* DEBUG */
+    
+    height:500px;
+    background-color: pink;
+
+}
+
+.footer-blue{
+    width: calc(70% / 4 );
+
+    /* DEBUG */height: 500px;
+    background-color: aqua;
+    border: 2px dashed white;
+}
+
+.footer-grid{
+    width: 100%;
+    
+
+}
+
+
+/* FOOTER BOTTOM */
+
+.footer-bottom{
+    padding: 20px;
+    /* DEBUG */
+    background-color: darkslategrey;
+
+}
+
+.footer-actions{
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+
+    /* DEBUG */
+    background-color: aqua;
+}
+
+#logo-footer{
+    width: 10%;
+    /* DEBUG */
+    background-color: grey;
+
+}
+
+.footer-actions>button{
+
+/* DEBUG */
+height: 2rem;
+border: 2px dashed black;
+}
