@@ -82,6 +82,46 @@ a{
 .header-main{
     /* DEBUG */
     height: 300px;
-    width: 800px;
+    width: 600px;
     background-color: violet;
+}
+
+/* MAIN */
+
+.container-main.white{
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 250px;
+}
+
+.blue{
+    flex-grow:1;
+    /* DEBUG */
+    height: 200px;
+    background-color: aqua;
+
+}
+.pink{
+    /* DEBUG */
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+
+}
+
+.container-main.grey{
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 250px;
+    background-color: grey;
+}
+
+.big{
+    width:100%;
+
+    /* DEBUG */
+    height: 400px;
+    background-color: green;
 }
